@@ -46,12 +46,12 @@
 </ul>
 <p>&amp;emsp;&#x53D6;&#x6837;&#x2014;&#x2014;&#x91CF;&#x5316;&#x2014;&#x2014;&#x7F16;&#x7801;</p>
 <h4 id="1&#x3001;Sequence-Labeling&#xFF1A;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x6570;&#x76EE;&#x4E00;&#x6837;&#x591A;&#x7684;&#x5411;&#x91CF;"><a href="#1&#x3001;Sequence-Labeling&#xFF1A;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x6570;&#x76EE;&#x4E00;&#x6837;&#x591A;&#x7684;&#x5411;&#x91CF;" class="headerlink" title="1&#x3001;Sequence Labeling&#xFF1A;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x6570;&#x76EE;&#x4E00;&#x6837;&#x591A;&#x7684;&#x5411;&#x91CF;"></a>1&#x3001;Sequence Labeling&#xFF1A;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x6570;&#x76EE;&#x4E00;&#x6837;&#x591A;&#x7684;&#x5411;&#x91CF;</h4><p>Self-attention&#x4F1A;&#x5403;&#x4E00;&#x6574;&#x4E2A;Sequence&#x7684;&#x8D44;&#x8BAF;&#xFF0C;&#x8F93;&#x5165;&#x51E0;&#x4E2A;vector&#x5C31;&#x8F93;&#x51FA;&#x51E0;&#x4E2A;vector</p>
- <img src="/posts/783265690/MLP_4_1.png" style="zoom:67%;">
+ <img src="MLP_4_1.png" style="zoom:67%;">
 
 <table>
     <tr>
-    <td><img src="/posts/783265690/MLP_4_2.png" style="zoom:40%;"></td>
-    <td><img src="/posts/783265690/new1.jpg" style="zoom:60%;"> </td>
+    <td><img src="MLP_4_2.png" style="zoom:40%;"></td>
+    <td><img src="new1.jpg" style="zoom:60%;"> </td>
     </tr>
 </table>
 
@@ -60,8 +60,8 @@
 <p>&#x8BA1;&#x7B97;&#x5411;&#x91CF;&#x4E4B;&#x95F4;&#x7684;&#x76F8;&#x5173;&#x5EA6;&#x3B1;&#x6709;&#x4EE5;&#x4E0B;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#xFF1A;</p>
 <table>
     <tr>
-    <td><center><img src="/posts/783265690/MLP_4_3.png" width="40%" alt="Dot-product&#x70B9;&#x4E58;"></center></td>
-    <td><center><img src="/posts/783265690/MLP_4_3.png" width="40%" alt="Additive&#x7D2F;&#x52A0;"></center></td>
+    <td><center><img src="MLP_4_3.png" width="40%" alt="Dot-product&#x70B9;&#x4E58;"></center></td>
+    <td><center><img src="MLP_4_3.png" width="40%" alt="Additive&#x7D2F;&#x52A0;"></center></td>
     </tr>
 </table>
 
@@ -71,28 +71,28 @@
 <h4 id="2&#x3001;&#x4ECE;&#x77E9;&#x9635;&#x4E58;&#x6CD5;&#x7684;&#x89D2;&#x5EA6;&#x8868;&#x793A;Self-attention"><a href="#2&#x3001;&#x4ECE;&#x77E9;&#x9635;&#x4E58;&#x6CD5;&#x7684;&#x89D2;&#x5EA6;&#x8868;&#x793A;Self-attention" class="headerlink" title="2&#x3001;&#x4ECE;&#x77E9;&#x9635;&#x4E58;&#x6CD5;&#x7684;&#x89D2;&#x5EA6;&#x8868;&#x793A;Self-attention"></a>2&#x3001;&#x4ECE;&#x77E9;&#x9635;&#x4E58;&#x6CD5;&#x7684;&#x89D2;&#x5EA6;&#x8868;&#x793A;Self-attention</h4><ol>
 <li>&#x4ECE; a &#x5F97;&#x5230; q, k, v</li>
 </ol>
-<img src="/posts/783265690/MLP_4_5.png" style="zoom:60%;">
+<img src="MLP_4_5.png" style="zoom:60%;">
 
 <ol start="2">
 <li>&#x6BCF;&#x4E00;&#x4E2A;q&#x90FD;&#x53BB;&#x70B9;&#x4E58;k</li>
 </ol>
-<img src="/posts/783265690/MLP_4_6.png" style="zoom:60%;">
+<img src="MLP_4_6.png" style="zoom:60%;">
 
 <ol start="3">
 <li>$\alpha$&#x4E58;&#x4E0A; v &#x5F97;&#x5230; b</li>
 </ol>
-<img src="/posts/783265690/MLP_4_7.png" style="zoom:60%;">
+<img src="MLP_4_7.png" style="zoom:60%;">
 
 <p>&#x603B;&#x7ED3;&#x8D77;&#x6765;&#x5C31;&#x662F;&#xFF1A;</p>
-<img src="/posts/783265690/MLP_4_8.png" style="zoom:60%;">
+<img src="MLP_4_8.png" style="zoom:60%;">
 
 <p>&#x91CC;&#x9762;&#x53EA;&#x6709;$W^q,W^k,W^v$&#x8FD9;&#x552F;&#x4E00;&#x53C2;&#x6570;&#x662F;&#x9700;&#x8981;&#x5B66;&#x4E60;&#x5F97;&#x51FA;&#x6765;&#x7684;</p>
 <h4 id="3&#x3001;Multi-head-Self-attention&#x591A;&#x5934;&#x76EE;&#x81EA;&#x6CE8;&#x610F;&#x529B;&#x673A;&#x5236;"><a href="#3&#x3001;Multi-head-Self-attention&#x591A;&#x5934;&#x76EE;&#x81EA;&#x6CE8;&#x610F;&#x529B;&#x673A;&#x5236;" class="headerlink" title="3&#x3001;Multi-head Self-attention&#x591A;&#x5934;&#x76EE;&#x81EA;&#x6CE8;&#x610F;&#x529B;&#x673A;&#x5236;"></a>3&#x3001;Multi-head Self-attention&#x591A;&#x5934;&#x76EE;&#x81EA;&#x6CE8;&#x610F;&#x529B;&#x673A;&#x5236;</h4><p>&amp;emsp;&amp;emsp;&#x5728;&#x4ECA;&#x5929;&#x591A;&#x5934;&#x76EE;&#x7684;&#x81EA;&#x6CE8;&#x610F;&#x529B;&#x673A;&#x5236;&#x4F7F;&#x7528;&#x5F97;&#x66F4;&#x4E3A;&#x5E7F;&#x6CDB;&#xFF0C;&#x5728;&#x5B9E;&#x9645;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x5355;&#x5934;&#x76EE;&#x548C;&#x591A;&#x5934;&#x76EE;&#x6709;&#x4EC0;&#x4E48;&#x4E0D;&#x540C;&#xFF0C;&#x56E0;&#x4E3A;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#xFF0C;&#x53EF;&#x80FD;&#x5F97;&#x5F97;&#x5230;&#x7684;&#x6548;&#x679C;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
 <p>&amp;emsp;&#x6709;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x7684;$W^q$&#xFF0C;&#x4ECE;&#x800C;&#x5F97;&#x51FA;&#x4E0D;&#x540C;&#x7684;$\boldsymbol{q}$&#x3002;&#x53EA;&#x662F;&#x5177;&#x4F53;&#x5728;&#x8BA1;&#x7B97;$\boldsymbol{b}$&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x628A;&#x4E0D;&#x540C;&#x7684;$\boldsymbol{b}$&#x62FC;&#x8D77;&#x6765;&#xFF0C;&#x518D;&#x53BB;&#x4E58;&#x4E0A;$\boldsymbol{W^O}$&#x3002;</p>
 <table>
     <tr><center>
-    <td><img src="/posts/783265690/MLP_4_9.png" style="zoom:50%;"></td>
-    <td><center><img src="/posts/783265690/MLP_4_10.png" style="zoom:67%;"></center></td>
+    <td><img src="MLP_4_9.png" style="zoom:50%;"></td>
+    <td><center><img src="MLP_4_10.png" style="zoom:67%;"></center></td>
     </center></tr>
 </table>
 
