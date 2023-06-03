@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="雨中冒险2联机教程"><meta name="keywords" content="联机"><meta name="author" content="锤子🔨"><meta name="copyright" content="锤子🔨"><title>雨中冒险2联机教程 | 你个锤子🔨</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f0a272b770b5f15707607b7cc732b3df";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://v1.hitokoto.cn/?encode=js&amp;charset=utf-8&amp;select=.footer_custom_text" defer></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  hexoVersion: '6.3.0'
+} </script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="你个锤子🔨" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%BB%BA%E7%AB%8B%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-text">1.建立本地服务器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F"><span class="toc-text">2.内网穿透</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%BC%80%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-text">3.开服务器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E5%A5%BD%E5%8F%8B%E5%8A%A0%E5%85%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%88%BF%E9%97%B4"><span class="toc-text">4.好友加入服务器房间</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E5%A6%82%E4%BD%95%E4%B8%AD%E9%80%94%E5%8A%A0%E5%85%A5"><span class="toc-text">5.如何中途加入</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="toc-text">参考文章</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="img/avatar.jpg"></div><div class="author-info__name text-center">锤子🔨</div><div class="author-info__description text-center">纸上得来终觉浅，绝知此事要躬行</div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/hammer-wh/">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">17</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">11</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">6</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">Links</div><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://molo333.github.io">Molo's Blog</a><a class="author-info-links__name text-center" target="_blank" rel="noopener" href="https://molunerfinn.com/hexo-theme-melody-doc/zh-Hans/">Melody</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(img/wallhaven-kx3p1q.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">你个锤子🔨</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">首页</a><a class="site-page" href="/archives">归档</a><a class="site-page" href="/tags">标签</a><a class="site-page" href="/categories">分类</a><a class="site-page" href="/about">关于</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title">雨中冒险2联机教程</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> created 2023-06-03<span class="post-meta__separator">|</span><i class="fa fa-calendar-check-o" aria-hidden="true"></i> updated 2023-06-03</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Game/">Game</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>&#x6700;&#x8FD1;&#x6C89;&#x8FF7;&#x7684;&#x6E38;&#x620F;&#xFF0C;&#x7531;&#x4E8E;&#x8054;&#x673A;&#x73AF;&#x5883;&#x590D;&#x6742;&#xFF0C;&#x56FA;&#x51FA;&#x6B64;&#x6559;&#x7A0B;&#x3002;</p>
+<span id="more"></span>
+
+<hr>
+<h1 id="1-&#x5EFA;&#x7ACB;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;"><a href="#1-&#x5EFA;&#x7ACB;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;" class="headerlink" title="1.&#x5EFA;&#x7ACB;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;"></a>1.&#x5EFA;&#x7ACB;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;</h1><p>SteamCMD &#x662F; Steam &#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x547D;&#x4EE4;&#x884C;&#x7248;&#x672C;&#x3002;&#x5B83;&#x7684;&#x4E3B;&#x8981;&#x7528;&#x9014;&#x662F;&#x4F7F;&#x7528;&#x547D;&#x4EE4;&#x884C;&#x754C;&#x9762;&#x5B89;&#x88C5;&#x548C;&#x66F4;&#x65B0;Steam&#x4E0A;&#x53EF;&#x7528;&#x7684;&#x5404;&#x79CD;&#x4E13;&#x7528;&#x670D;&#x52A1;&#x5668;&#x3002;&#x5B83;&#x9002;&#x7528;&#x4E8E;&#x4EFB;&#x4F55;&#x4F7F;&#x7528;SteamPipe&#x5185;&#x5BB9;&#x7CFB;&#x7EDF;&#x7684;&#x6E38;&#x620F;&#x3002;&#x5F53;&#x4F60;&#x9700;&#x8981;&#x67B6;&#x8BBE;&#x4E00;&#x6B3E;&#x5728;Steam&#x53D1;&#x884C;&#x6E38;&#x620F;&#x7684;&#x4E2A;&#x4EBA;&#x670D;&#x52A1;&#x5668;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x4F1A;&#x7528;&#x5230;&#x8FD9;&#x6B3E;&#x8F6F;&#x4EF6;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#x96E8;&#x4E2D;&#x5192;&#x9669;2&#x6709;&#x5DF2;&#x7ECF;&#x96C6;&#x6210;&#x597D;&#x7684;cmd&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;<del>&#x61D2;&#x4EBA;</del>&#x76F4;&#x63A5;&#x5728;steam&#x5546;&#x5E97;&#x4E2D;&#x4E0B;&#x8F7D;&#x5373;&#x53EF;&#x3002;( &#x2022;&#x300; &#x3C9; &#x2022;&#x301; )&#x2727;</p>
+<ol>
+<li><p>&#x70B9;&#x51FB;&#x5E93;</p>
+</li>
+<li><p>&#x7B5B;&#x9009;&#x6761;&#x4EF6;&#x91CC;&#x52FE;&#x9009;&#x4E0A;&#x201D;&#x5DE5;&#x5177;&#x201C;</p>
+</li>
+<li><p>&#x8F93;&#x5165;<code>rain</code>&#x641C;&#x7D22;&#xFF0C;&#x4F1A;&#x770B;&#x5230;&#x6709;&#x4E00;&#x4E2A;<code>Risk of Rain 2 Dedicated Server</code>&#xFF0C;&#x8FD9;&#x4E2A;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x8981;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x4E0B;&#x8F7D;&#x5373;&#x53EF;</p>
+</li>
+<li><p>&#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x5728;&#x5E93;&#x91CC;&#x53F3;&#x952E;&#x5B83;&#x2013;&gt;&#x6D4F;&#x89C8;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x2013;&gt;&#x8FDB;&#x5165;&#x5230;<code>...\steamapps\common\Risk of Rain 2 Dedicated Server\Risk of Rain 2_Data\Config</code>&#x7684;&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7528;&#x8BB0;&#x4E8B;&#x672C;&#x6216;&#x8005;VScode&#x6253;&#x5F00;<code>server_startup.cfg</code>&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x8FDB;&#x884C;&#x670D;&#x52A1;&#x5668;&#x7684;&#x914D;&#x7F6E;</p>
+</li>
+<li><p>&#x4FEE;&#x6539;&#x914D;&#x7F6E;</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sv_maxplayers 4; // &#x6E38;&#x620F;&#x4EBA;&#x6570;&#x4E0A;&#x9650;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x5DF2;&#x4E0D;&#x53EF;&#x66F4;&#x6539;&#xFF0C;&#x9700;&#x6253;&quot;toomanypeople&quot;mod</span><br><span class="line">steam_server_heartbeat_enabled 1; // &#x8BBE;&#x7F6E;&#x4E3A;0&#x5C06;&#x4E0D;&#x64AD;&#x53D1;&#x5230;&#x4E3B;&#x670D;&#x52A1;&#x5668;&#x3002;&#x6CA1;&#x61C2;&#xFF0C;&#x4E0D;&#x4FEE;&#x6539;</span><br><span class="line">sv_hostname &quot;Risk of Rain 2 Dedicated Server&quot;; // &#x670D;&#x52A1;&#x5668;&#x540D;&#x79F0;</span><br><span class="line">sv_port 27015; // &#x670D;&#x52A1;&#x5668;&#x4F7F;&#x7528;&#x7684;&#x7AEF;&#x53E3;</span><br><span class="line">steam_server_query_port 27016;	// &#x670D;&#x52A1;&#x5668;&#x67E5;&#x627E;&#x7AEF;&#x53E3;&#x7684;&#x8303;&#x56F4;</span><br><span class="line">steam_server_steam_port 0;</span><br><span class="line">sv_password &quot;&quot;; // &#x8BBE;&#x5B9A;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5BC6;&#x7801;&#xFF0C;&#x7559;&#x7A7A;&#x767D;&#x5219;&#x65E0;&#x9700;&#x5BC6;&#x7801;&#x5373;&#x53EF;&#x52A0;&#x5165;</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>&#x4FDD;&#x5B58;&#x4FEE;&#x6539;&#x5B8C;&#x6210;&#x914D;&#x7F6E;</p>
+</li>
+</ol>
+<h1 id="2-&#x5185;&#x7F51;&#x7A7F;&#x900F;"><a href="#2-&#x5185;&#x7F51;&#x7A7F;&#x900F;" class="headerlink" title="2.&#x5185;&#x7F51;&#x7A7F;&#x900F;"></a>2.&#x5185;&#x7F51;&#x7A7F;&#x900F;</h1><blockquote>
+<p>&#x5185;&#x7F51;&#x7A7F;&#x900F;&#xFF0C;&#x5373;NAT&#xFF08;Network Address Translator&#xFF09;&#x7A7F;&#x900F;&#xFF0C;&#x662F;&#x6307;&#x8BA1;&#x7B97;&#x673A;&#x5728;&#x5185;&#x7F51;&#xFF08;&#x5C40;&#x57DF;&#x7F51;&#xFF09;&#x5185;&#x4F7F;&#x7528;&#x79C1;&#x6709;IP&#x5730;&#x5740;&#xFF0C;&#x5728;&#x8FDE;&#x63A5;&#x5916;&#x7F51;&#xFF08;&#x4E92;&#x8054;&#x7F51;&#xFF09;&#x65F6;&#x4F7F;&#x7528;&#x5168;&#x5C40;IP&#x5730;&#x5740;&#x7684;&#x6280;&#x672F; &#x3002;&#x8BE5;&#x6280;&#x672F;&#x88AB;&#x666E;&#x904D;&#x4F7F;&#x7528;&#x5728;&#x6709;&#x591A;&#x53F0;&#x4E3B;&#x673A;&#x4F46;&#x53EA;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x516C;&#x6709;IP&#x5730;&#x5740;&#x8BBF;&#x95EE;&#x7684;&#x79C1;&#x6709;&#x7F51;&#x7EDC;&#x4E2D;&#x3002;</p>
+</blockquote>
+<p>&#x8054;&#x673A;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x5185;&#x7F51;&#x7A7F;&#x900F;&#x6709;&#x591A;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x6211;&#x5217;&#x4E3E;&#x4E00;&#x4E0B;&#x76EE;&#x524D;&#x6211;&#x77E5;&#x9053;&#x7684;&#x8F6F;&#x4EF6;&#xFF1A;RadminLAN&#xFF0C;N2N&#xFF0C;Team viewer&#xFF0C;ZerotierOne&#xFF0C;SakuraFrp&#xFF0C;&#x86E4;&#x87C6;&#x5403;&#x2026;(&#x548B;&#x4E00;&#x770B;&#x6211;&#x8FD8;&#x8BD5;&#x4E86;&#x597D;&#x591A;&#x8F6F;&#x4EF6;&#x54C8;&#x54C8;&#x54C8;)</p>
+<p>&#x672C;&#x6587;&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x4EE5;SakuraFrp&#x6765;&#x7A7F;&#x900F;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x5F00;&#x59CB;&#xFF01;</p>
+<ol>
+<li>&#x9996;&#x5148;&#x53BB;&#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x8D26;&#x53F7;&#xFF0C;&#x7136;&#x540E;&#x82B1;&#xFFE5;1&#x5B8C;&#x6210;&#x5B9E;&#x540D;&#x8BA4;&#x8BC1;</li>
+<li>&#x8BA4;&#x8BC1;&#x5B8C;&#x6210;&#x5C31;&#x53EF;&#x4EE5;&#x514D;&#x8D39;&#x7528;&#x666E;&#x901A;&#x96A7;&#x9053;&#x4E86;&#x3002;<strong>&#x8BB0;&#x5F97;&#x8D81;&#x4EBA;&#x5C11;&#x7684;&#x65F6;&#x5019;&#x521B;&#x5EFA;&#x96A7;&#x9053;&#xFF0C;&#x4E0D;&#x7136;&#x6EE1;&#x8D1F;&#x8F7D;&#x65F6;&#x96A7;&#x9053;&#x662F;&#x6682;&#x505C;&#x521B;&#x5EFA;&#x7684;&#xFF01;</strong></li>
+<li>&#x67E5;&#x770B;&#x8282;&#x70B9;&#x72B6;&#x6001;&#x3002;<code>&#x670D;&#x52A1;</code>&#x2013;&gt;<code>&#x8282;&#x70B9;&#x72B6;&#x6001;</code>&#xFF0C;&#x627E;&#x4E00;&#x4E2A;&#x4EBA;&#x5C11;&#x7684;&#x8282;&#x70B9;&#x3002;&#x8BB0;&#x4F4F;&#x8FD9;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x4E00;&#x4F1A;&#x8981;&#x7528;&#x3002;</li>
+<li>&#x96A7;&#x9053;&#x5217;&#x8868;&#x91CC;&#xFF0C;&#x70B9;&#x51FB;&#x521B;&#x5EFA;&#x96A7;&#x9053;&#xFF0C;&#x7B5B;&#x9009;<code>UDP&#x7C7B;&#x578B;</code>&#x548C;<code>&#x666E;&#x901A;&#x8282;&#x70B9;&#xFF08;&#x5185;&#x5730;&#xFF09;</code>&#xFF0C;&#x9009;&#x62E9;&#x521A;&#x521A;&#x770B;&#x5230;&#x4EBA;&#x5C11;&#x7684;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x521B;&#x5EFA;&#x3002;</li>
+<li>&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x9009;&#x62E9;<code>UDP</code>&#xFF0C;&#x672C;&#x5730;IP&#x9ED8;&#x8BA4;&#x5C31;&#x884C;&#xFF0C;&#x672C;&#x5730;&#x7AEF;&#x53E3;&#x8BBE;&#x7F6E;&#x4E3A;<code>27015</code>&#xFF0C;&#x70B9;&#x51FB;<code>&#x521B;&#x5EFA;</code>&#x5373;&#x53EF;</li>
+<li>&#x6700;&#x540E;&#x4E0B;&#x8F7D;&#x4ED6;&#x7684;&#x684C;&#x9762;&#x7AEF;&#x5E94;&#x7528;&#xFF0C;&#x7528;&#x5BC6;&#x94A5;&#x767B;&#x9646;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x6253;&#x5F00;&#x6211;&#x4EEC;&#x521B;&#x5EFA;&#x7684;&#x96A7;&#x9053;&#xFF0C;&#x5728;&#x65E5;&#x5FD7;&#x91CC;&#x67E5;&#x770B;&#x96A7;&#x9053;&#x7684;&#x5177;&#x4F53;&#x4FE1;&#x606F;&#x3002;&#x4E00;&#x4F1A;&#x8FDE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x8981;&#x7528;&#x3002;</li>
+</ol>
+<h1 id="3-&#x5F00;&#x670D;&#x52A1;&#x5668;"><a href="#3-&#x5F00;&#x670D;&#x52A1;&#x5668;" class="headerlink" title="3.&#x5F00;&#x670D;&#x52A1;&#x5668;"></a>3.&#x5F00;&#x670D;&#x52A1;&#x5668;</h1><ol>
+<li>&#x901A;&#x8FC7;r2modman&#x6253;&#x5F00;<code>Server</code>&#x7684;<code>Risk of Rain 2 Dedicated Server</code>&#x3002;&#x8FD9;&#x91CC;&#x6211;&#x9ED8;&#x8BA4;&#x4F60;&#x5DF2;&#x7ECF;&#x5B66;&#x4F1A;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x8F6F;&#x4EF6;&#xFF0C;&#x6CE8;&#x610F;mod&#x8981;&#x88C5;&#x5728;&#x670D;&#x52A1;&#x5668;&#x91CC;&#x5934;&#x3002;<strong>&#xFF08;&#x90E8;&#x5206;&#x4EBA;&#x53CD;&#x6620;&#x4E0D;&#x4F1A;&#x5B89;&#x88C5;mod&#xFF0C;&#x73B0;&#x53EF;&#x5728;&#x53C2;&#x8003;&#x6587;&#x7AE0;&#x5B66;&#x4E60;&#xFF09;</strong></li>
+<li>&#x5728;<code>profile selection</code>&#x754C;&#x9762;&#x8FD9;&#x91CC;&#x5EFA;&#x8BAE;<code>create new</code>&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x4E13;&#x95E8;&#x7528;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7684;mod&#x914D;&#x7F6E;</li>
+<li>&#x5230;&#x91CC;&#x9762;&#x7684;<code>online</code>&#x4E0B;&#x8F7D;&#x4F60;&#x6240;&#x9700;&#x8981;&#x7684;mod&#x3002;<strong>&#x5982;&#x679C;&#x4F60;&#x662F;&#x52A0;&#x5165;&#x522B;&#x4EBA;&#x7684;&#x6E38;&#x620F;&#xFF0C;&#x5EFA;&#x8BAE;&#x662F;&#x548C;&#x623F;&#x4E3B;&#x7684;mod&#x4E00;&#x81F4;&#xFF0C;&#x5426;&#x5219;&#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x73B0;&#x4E0D;&#x53EF;&#x9884;&#x77E5;&#x7684;&#x9519;&#x8BEF;&#x3002;</strong></li>
+<li>&#x5B89;&#x88C5;&#x5B8C;&#x6240;&#x9700;&#x7684;mod&#xFF0C;&#x70B9;&#x51FB;<code>startmoded</code>&#x542F;&#x52A8;&#x670D;&#x52A1;&#x5668;</li>
+<li>&#x76F4;&#x5230;&#x547D;&#x4EE4;&#x884C;&#x7A97;&#x53E3;&#x663E;&#x793A;<code>teamworks Server Ip discovered</code>&#xFF0C;&#x81F3;&#x6B64;&#xFF0C;&#x88C5;&#x4E86;mod&#x7684;&#x670D;&#x52A1;&#x5668;&#x5F00;&#x542F;&#x6210;&#x529F;&#xFF01;&#x8FD9;&#x4E2A;&#x7A97;&#x53E3;&#x8981;&#x4E00;&#x76F4;&#x5F00;&#x7740;&#x4E0D;&#x80FD;&#x5173;&#x95ED;&#x3002;</li>
+<li>&#x53EF;&#x4EE5;&#x5230;steam&#x4E2D;&#x67E5;&#x770B;&#x662F;&#x5426;&#x5F00;&#x542F;&#x6210;&#x529F;<ol>
+<li>&#x6253;&#x5F00;steam&#x4E3B;&#x9875;&#x9762;</li>
+<li>&#x70B9;&#x51FB;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;&#x9009;&#x9879;&#x5361;<code>&#x67E5;&#x770B;</code>&#xFF0C;&#x70B9;&#x51FB;<code>&#x670D;&#x52A1;&#x5668;</code>&#xFF0C;&#x91CC;&#x9762;&#x6709;&#x4E2A;&#x5C40;&#x57DF;&#x7F51;&#x7684;&#x9009;&#x9879;&#x5361;&#xFF0C;&#x70B9;&#x51FB;&#x770B;&#x770B;&#x662F;&#x5426;&#x6709;&#x623F;&#x95F4;&#xFF0C;&#x5982;&#x679C;&#x6709;&#xFF0C;&#x8BF4;&#x660E;&#x623F;&#x95F4;&#x5F00;&#x542F;&#x6210;&#x529F;</li>
+</ol>
+</li>
+</ol>
+<h1 id="4-&#x597D;&#x53CB;&#x52A0;&#x5165;&#x670D;&#x52A1;&#x5668;&#x623F;&#x95F4;"><a href="#4-&#x597D;&#x53CB;&#x52A0;&#x5165;&#x670D;&#x52A1;&#x5668;&#x623F;&#x95F4;" class="headerlink" title="4.&#x597D;&#x53CB;&#x52A0;&#x5165;&#x670D;&#x52A1;&#x5668;&#x623F;&#x95F4;"></a>4.&#x597D;&#x53CB;&#x52A0;&#x5165;&#x670D;&#x52A1;&#x5668;&#x623F;&#x95F4;</h1><ol>
+<li><p>&#x901A;&#x8FC7;r2modman&#x6253;&#x5F00;<code>Game</code>&#x7684;<code>Risk of Rain 2</code></p>
+</li>
+<li><p>&#x6E38;&#x620F;&#x5185;&#x6253;&#x5F00;&#x63A7;&#x5236;&#x53F0;<code>Ctrl</code>+<code>Alt</code>+<code>~</code></p>
+</li>
+<li><p>&#x4F9D;&#x6B21;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cl_password &lt;&#x8BBE;&#x7F6E;&#x7684;&#x5BC6;&#x7801;&gt;</span><br><span class="line">connect &lt;&#x65E5;&#x5FD7;&#x91CC;&#x7684;&#x5730;&#x5740;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4E00;&#x884C;&#x8F93;&#x5165;&#x5B8C;</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cl_password &lt;&#x8BBE;&#x7F6E;&#x7684;&#x5BC6;&#x7801;&gt;;connect &lt;&#x65E5;&#x5FD7;&#x91CC;&#x7684;&#x5730;&#x5740;&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="5-&#x5982;&#x4F55;&#x4E2D;&#x9014;&#x52A0;&#x5165;"><a href="#5-&#x5982;&#x4F55;&#x4E2D;&#x9014;&#x52A0;&#x5165;" class="headerlink" title="5.&#x5982;&#x4F55;&#x4E2D;&#x9014;&#x52A0;&#x5165;"></a>5.&#x5982;&#x4F55;&#x4E2D;&#x9014;&#x52A0;&#x5165;</h1><p>&#x8FD9;&#x4E2A;&#x5176;&#x5B9E;&#x662F;&#x4E00;&#x4E2A;mod&#xFF0C;&#x9700;&#x8981;&#x5B89;&#x88C5;&#x5728;&#x670D;&#x52A1;&#x5668;&#x91CC;&#x3002;&#x540D;&#x5B57;&#x662F;<strong>DropinMultiplayer</strong>&#x3002;&#x5B83;&#x53EF;&#x4EE5;&#x8BA9;&#x4E2D;&#x9014;&#x52A0;&#x5165;&#x7684;&#x4EBA;&#x62E5;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x7269;&#x54C1;&#x88C5;&#x5907;&#xFF0C;&#x4E0D;&#x81F3;&#x4E8E;&#x843D;&#x540E;&#x592A;&#x591A;&#x800C;&#x65E0;&#x6E38;&#x620F;&#x4F53;&#x9A8C;&#x3002;</p>
+<p>&#x63A7;&#x5236;&#x53F0;&#x8F93;&#x5165;<code>/join_as Bandit</code></p>
+<table>
+<thead>
+<tr>
+<th>&#x89D2;&#x8272;</th>
+<th>&#x5BF9;&#x5E94;&#x4EE3;&#x7801;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x76D7;&#x8D3C;</td>
+<td>Bandit</td>
+</tr>
+<tr>
+<td>&#x8239;&#x957F;</td>
+<td>Captain</td>
+</tr>
+<tr>
+<td>&#x6307;&#x6325;&#x5B98;</td>
+<td>Commando</td>
+</tr>
+<tr>
+<td>&#x6BD2;&#x72D7;</td>
+<td>Acrid</td>
+</tr>
+<tr>
+<td>&#x5DE5;&#x7A0B;&#x5E08;</td>
+<td>Engineer</td>
+</tr>
+<tr>
+<td>&#x5F02;&#x6559;&#x5F92;</td>
+<td>Heretic</td>
+</tr>
+<tr>
+<td>&#x5973;&#x730E;&#x4EBA;</td>
+<td>Huntress</td>
+</tr>
+<tr>
+<td>&#x94C1;&#x62F3;</td>
+<td>Loader</td>
+</tr>
+<tr>
+<td>&#x5DE5;&#x5320;</td>
+<td>Mage</td>
+</tr>
+<tr>
+<td>&#x96C7;&#x4F63;&#x5175;</td>
+<td>Mercenary</td>
+</tr>
+<tr>
+<td>&#x673A;&#x5668;&#x4EBA;</td>
+<td>MUL-T</td>
+</tr>
+<tr>
+<td>&#x96F7;&#x514B;&#x65AF;</td>
+<td>REX</td>
+</tr>
+<tr>
+<td>&#x8F68;&#x9053;&#x70AE;&#x624B;</td>
+<td>Railgunner</td>
+</tr>
+<tr>
+<td>&#x865A;&#x7A7A;&#x6076;&#x9B3C;</td>
+<td>VoidSurvivor</td>
+</tr>
+</tbody></table>
+<h1 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/edwinaze/p/15395111.html">zerotier &#x5B9E;&#x73B0; minecraft &#x5C40;&#x57DF;&#x7F51;&#x8054;&#x673A; | &#x6211;&#x7684;&#x4E16;&#x754C;&#x8054;&#x673A;&#x6559;&#x7A0B; | minecraft&#x8054;&#x673A; </a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv15307201">&#x96E8;&#x4E2D;&#x5192;&#x9669;2 mod&#x63A8;&#x8350; &#x66F4;&#x65B0;&#x81F3; 22/04/29</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv17487441">&#x96E8;&#x4E2D;&#x5192;&#x9669;2 rian of risk2 mod&#x63A8;&#x8350;Ver.2</a></li>
+</ul>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">锤子🔨</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://hammer-wh.github.io/posts/1393329889/">https://hammer-wh.github.io/posts/1393329889/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%81%94%E6%9C%BA/">联机</a></div><nav id="pagination"><div class="next-post pull-right"><a href="/posts/2062764165/"><span>机器学习项目部署通用步骤</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(img/wallhaven-kx3p1q.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2022 - 2023 By 锤子🔨</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">hitokoto</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="/js/search/local-search.js"></script><script id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" data-click="true"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
