@@ -269,14 +269,14 @@
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/tags/stable-diffusion/</loc>
+    <loc>https://hammer-wh.github.io/tags/Dos/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/tags/Dos/</loc>
+    <loc>https://hammer-wh.github.io/tags/stable-diffusion/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -297,13 +297,6 @@
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
-    <lastmod>2024-04-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hammer-wh.github.io/tags/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,7 +304,7 @@
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/tags/%E8%81%94%E6%9C%BA/</loc>
+    <loc>https://hammer-wh.github.io/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -319,6 +312,13 @@
   
   <url>
     <loc>https://hammer-wh.github.io/tags/hexo/</loc>
+    <lastmod>2024-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hammer-wh.github.io/tags/%E8%81%94%E6%9C%BA/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -362,14 +362,14 @@
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/categories/Game/</loc>
+    <loc>https://hammer-wh.github.io/categories/hexo/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hammer-wh.github.io/categories/hexo/</loc>
+    <loc>https://hammer-wh.github.io/categories/Game/</loc>
     <lastmod>2024-04-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
